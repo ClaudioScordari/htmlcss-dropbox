@@ -11,14 +11,41 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0 20px;
+}
+
 /* HEADER */
 
 /* header top */
 header>.header-top {
     /* debug */
-    height: 80px;
     background-color: beige;
 }
+
+.container-header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* debug */
+    height: 80px;
+}
+
+.container-header-top>li:first-child>.logo {
+    /* debug */
+    width: 180px;
+    background-color: blue;
+    color: red;
+}
+
 
 /* header-bottom */
 header>.header-bottom {
