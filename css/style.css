@@ -6,7 +6,62 @@
     margin: 0;
 }
 
+/* GENERAL */
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* HEADER */
+
+/* header top */
+header>.header-top {
+    /* debug */
+    height: 80px;
+    background-color: beige;
+}
+
+/* header-bottom */
+header>.header-bottom {
+    background-color: #B4D0E7;
+    /* debug */
+    height: 700px;
+}
+
+.header-bottom>.container-header-bottom {
+    width: 65%;
+    margin: auto;
+    /* debug */
+    height: 100%;
+    border: 2px solid black;
+}
+
+.container-header-bottom>h1 {
+    width: 100%;
+    /* debug */
+    height: 250px;
+    background-color: lightcoral;
+}
+
+.container-header-bottom>h1+div {
+    display: flex;
+    /* debug */
+    height: calc(100% - 250px);
+    background-color: azure;
+}
+
+.container-header-bottom>h1+div>div:first-child {
+    width: 40%;
+    /* debug */
+    height: calc(100%-250px);
+    background-color: blueviolet;
+}
+
+.container-header-bottom>h1+div>div:nth-of-type(2) {
+    width: 60%;
+    /* debug */
+    height: calc(100%-250px);
+    background-color: beige;
+}
 
 /* MAIN */
 
