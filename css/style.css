@@ -46,7 +46,6 @@ header>.header-top {
     color: red;
 }
 
-
 /* header-bottom */
 header>.header-bottom {
     background-color: #B4D0E7;
@@ -91,5 +90,41 @@ header>.header-bottom {
 }
 
 /* MAIN */
+
+main .container-main {
+    width: 60%;
+    margin: auto;
+}
+
+main>.container-main>h2 {
+    /* debug */
+    height: 200px;
+    background-color: aqua;
+}
+
+main>.container-main>h2+div {
+    /* debug */
+    height: 100px;
+    background-color: beige;
+}
+
+main .container-main .box-subscriptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .container-main .box-subscriptions>* {
+    width: calc((100% / 3) - 35px);
+    /* debug */
+    background-color: lightgrey;
+    height: 800px;
+}
+
+main .container-main>div:last-child {
+    /* debug */
+    height: 300px;
+    background-color: lightblue;
+}
 
 /* FOOTER */
