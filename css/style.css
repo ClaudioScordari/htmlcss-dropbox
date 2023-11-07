@@ -33,6 +33,7 @@ ul {
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* HEADER */
@@ -151,6 +152,20 @@ main .container-main .box-40 {
     height: 400px;
 }
 
+/* main terza sezione */
+main .container-main>h2 {
+    /* debug */
+    height: 150px;
+    background-color: lightgreen;
+}
+
+main .container-main h2+.flex>* {
+    width: calc(100% / 3);
+    /* debug */
+    border: 1px solid black;
+    background-color: green;
+    height: 400px;
+}
 
 
 
