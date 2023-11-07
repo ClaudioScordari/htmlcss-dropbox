@@ -36,6 +36,11 @@ ul {
     flex-wrap: wrap;
 }
 
+main>section {
+    width: 60%;
+    margin: auto;
+}
+
 /* HEADER */
 
 /* header top */
@@ -102,11 +107,6 @@ header>.header-bottom {
 /* MAIN */
 
 /* main prima sezione */
-main .container-main {
-    width: 60%;
-    margin: auto;
-}
-
 main>.container-main>h2 {
     /* debug */
     height: 200px;
@@ -159,7 +159,12 @@ main .container-main>h2 {
     background-color: lightgreen;
 }
 
-main .container-main h2+.flex>* {
+main .container-main h2+.operations {
+    /* debug */
+    height: 800px;
+}
+
+main .container-main h2+.operations>* {
     width: calc(100% / 3);
     /* debug */
     border: 1px solid black;
@@ -167,6 +172,11 @@ main .container-main h2+.flex>* {
     height: 400px;
 }
 
-
+/* main quarta sezione */
+main .container-main .discover_more {
+    /* debug */
+    height: 400px;
+    background-color: grey;
+}
 
 /* FOOTER */
