@@ -212,4 +212,11 @@ main>section:nth-of-type(5)>div:last-child {
     border: 2px solid black;
 }
 
+/* main sesta sezione */
+main>section:nth-of-type(6)>h2~div {
+    /* debug */
+    height: 100px;
+    border: 2px solid orange;
+}
+
 /* FOOTER */
