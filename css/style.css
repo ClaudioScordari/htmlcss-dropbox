@@ -278,43 +278,88 @@ main .container h2+.operations>* {
 }
 
 /* main quarta sezione */
-main .container .discover_more {
-    /* debug */
-    height: 400px;
-    background-color: grey;
+main section:nth-of-type(4) .discover_more>h2 {
+    font-size: 40px;
+    margin-bottom: 70px;
 }
 
-/* main quinta sezione */
-main>section:nth-of-type(5) .container {
-    /* debug */
-    height: 300px;
-    border: 2px solid black;
+main section:nth-of-type(4) .discover_more>a {
+    display: inline-block;
+    text-decoration: underline;
+    color: blue;
+    margin-bottom: 150px;
 }
 
-main>section:nth-of-type(5) .container+.some-logos {
-    /* debug */
-    border: 2px solid red;
-    min-height: 300px;
-}
-
-main>section:nth-of-type(5) .some-logos * {
+main .square {
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    /* debug */
-    border: 2px solid blue;
 }
 
-main>section:nth-of-type(5) .some-logos .mini_square {
+main .square .mini_square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: calc(100% / 2);
     height: calc(100% / 2);
-    /* debug */
-    border: 2px solid orchid;
 }
 
-main>section:nth-of-type(5)>div:last-child {
-    /* debug */
-    height: 200px;
-    border: 2px solid black;
+main .square>.mini_square img {
+    width: 50%;
+}
+
+main .square .mini_square img {
+    filter: invert(1);
+}
+
+#Designit {
+    background-color: #A2D39B;
+    border: 20px solid #D1E9CD;
+}
+
+#ASU {
+    background-color: #61082B;
+}
+
+#UF {
+    background-color: #0093CE;
+}
+
+#topps {
+    background-color: #FF1C1C;
+}
+
+#world_bicycle_relief {
+    background-color: #D5001F;
+}
+
+#hearst_corp {
+    background-color: #B4D0E7;
+}
+
+#lonely_planet {
+    background-color: #0D2481;
+}
+
+#clear_channel {
+    background-color: #FFD830;
+}
+
+#middle-square {
+    padding: 50px;
+    background-color: #F5F5F5;
+}
+
+#middle-square img {
+    width: 50%;
+}
+
+#middle-square * {
+    margin-bottom: 50px;
+}
+
+#middle-square img+hr {
+    border: 1px solid lightgrey;
+    width: 25%;
 }
 
 /* main sesta sezione */
