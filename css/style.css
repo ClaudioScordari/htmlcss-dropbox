@@ -36,7 +36,7 @@ ul {
     flex-wrap: wrap;
 }
 
-main>section {
+.container-main {
     width: 60%;
     margin: auto;
 }
@@ -177,6 +177,39 @@ main .container-main .discover_more {
     /* debug */
     height: 400px;
     background-color: grey;
+}
+
+/* main quinta sezione */
+main>section:nth-of-type(5) .container-main {
+    /* debug */
+    height: 300px;
+    border: 2px solid black;
+}
+
+main>section:nth-of-type(5) .container-main+.some-logos {
+    /* debug */
+    border: 2px solid red;
+    min-height: 300px;
+}
+
+main>section:nth-of-type(5) .some-logos * {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    /* debug */
+    border: 2px solid blue;
+}
+
+main>section:nth-of-type(5) .some-logos .mini_square {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    /* debug */
+    border: 2px solid orchid;
+}
+
+main>section:nth-of-type(5)>div:last-child {
+    /* debug */
+    height: 200px;
+    border: 2px solid black;
 }
 
 /* FOOTER */
