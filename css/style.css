@@ -41,27 +41,34 @@ ul {
     margin: auto;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    padding: 5px 15px;
+    color: white;
+    background-color: #0061FF;
+}
+
 /* HEADER */
 
 /* header top */
-header>.header-top {
-    /* debug */
-    background-color: beige;
-}
-
 .container-header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* debug */
     height: 80px;
 }
 
-.container-header-top>li:first-child>.logo {
-    /* debug */
+.container-header-top>li>* {
+    vertical-align: middle;
+}
+
+.container-header-top>li:first-child>a .logo {
     width: 180px;
-    background-color: blue;
-    color: red;
+    margin-left: 5px;
 }
 
 /* header-bottom */
