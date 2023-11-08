@@ -36,7 +36,7 @@ ul {
     flex-wrap: wrap;
 }
 
-.container-main {
+.container {
     width: 60%;
     margin: auto;
 }
@@ -107,32 +107,32 @@ header>.header-bottom {
 /* MAIN */
 
 /* main prima sezione */
-main>.container-main>h2 {
+main>.container>h2 {
     /* debug */
     height: 200px;
     background-color: aqua;
 }
 
-main>.container-main>h2+div {
+main>.container>h2+div {
     /* debug */
     height: 100px;
     background-color: beige;
 }
 
-main .container-main .box-subscriptions {
+main .container .box-subscriptions {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-main .container-main .box-subscriptions>* {
+main .container .box-subscriptions>* {
     width: calc((100% / 3) - 35px);
     /* debug */
     background-color: lightgrey;
     height: 800px;
 }
 
-main .container-main>.contact-team {
+main .container>.contact-team {
     /* debug */
     height: 300px;
     background-color: lightblue;
@@ -140,31 +140,31 @@ main .container-main>.contact-team {
 
 /* main seconda sezione */
 
-main .container-main .img.box-60 {
+main .container .img.box-60 {
     /* debug */
     background-color: lightcoral;
     height: 400px;
 }
 
-main .container-main .box-40 {
+main .container .box-40 {
     /* debug */
     background-color: beige;
     height: 400px;
 }
 
 /* main terza sezione */
-main .container-main>h2 {
+main .container>h2 {
     /* debug */
     height: 150px;
     background-color: lightgreen;
 }
 
-main .container-main h2+.operations {
+main .container h2+.operations {
     /* debug */
     height: 800px;
 }
 
-main .container-main h2+.operations>* {
+main .container h2+.operations>* {
     width: calc(100% / 3);
     /* debug */
     border: 1px solid black;
@@ -173,20 +173,20 @@ main .container-main h2+.operations>* {
 }
 
 /* main quarta sezione */
-main .container-main .discover_more {
+main .container .discover_more {
     /* debug */
     height: 400px;
     background-color: grey;
 }
 
 /* main quinta sezione */
-main>section:nth-of-type(5) .container-main {
+main>section:nth-of-type(5) .container {
     /* debug */
     height: 300px;
     border: 2px solid black;
 }
 
-main>section:nth-of-type(5) .container-main+.some-logos {
+main>section:nth-of-type(5) .container+.some-logos {
     /* debug */
     border: 2px solid red;
     min-height: 300px;
@@ -220,3 +220,25 @@ main>section:nth-of-type(6)>h2~div {
 }
 
 /* FOOTER */
+footer {
+    background-color: black;
+    /* debug */
+    min-height: 500px;
+}
+
+/* footer prima sezione */
+footer>section:first-child>* {
+    width: calc(100% / 5);
+    /* debug */
+    height: 500px;
+    border: 2px solid orange;
+}
+
+/* footer seconda sezione */
+footer>section:last-child>div {
+    display: inline-block;
+    padding-right: 50px;
+    /* debug */
+    border-top: 1px solid white;
+    color: white;
+}
