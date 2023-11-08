@@ -257,17 +257,24 @@ main .box-40>a {
 }
 
 /* main terza sezione */
-main .container h2+.operations {
-    /* debug */
-    height: 800px;
+main section:nth-of-type(3) .operations>div>* {
+    margin-bottom: 20px;
+}
+
+main section:nth-of-type(3) .img img {
+    width: 100%;
+}
+
+main section:nth-of-type(3) .operations h3 {
+    font-size: 25px;
+}
+
+main .operations {
+    justify-content: space-between;
 }
 
 main .container h2+.operations>* {
-    width: calc(100% / 3);
-    /* debug */
-    border: 1px solid black;
-    background-color: green;
-    height: 400px;
+    width: calc((100% / 3) - 25px);
 }
 
 /* main quarta sezione */
