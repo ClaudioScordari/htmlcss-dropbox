@@ -419,30 +419,40 @@ main section:nth-of-type(6)>.faq-box i {
     padding-right: 25px;
 }
 
-
-
-
-
 /* FOOTER */
 footer {
     background-color: black;
-    /* debug */
-    min-height: 500px;
 }
 
 /* footer prima sezione */
 footer>section:first-child>* {
     width: calc(100% / 5);
-    /* debug */
-    height: 500px;
-    border: 2px solid orange;
+}
+
+footer .column-footer>h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 35px;
+    margin-top: 80px;
+}
+
+footer .column-footer>h3+nav ul li a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: white;
 }
 
 /* footer seconda sezione */
 footer>section:last-child>div {
+    margin-top: 70px;
+    padding-top: 50px;
+    padding-bottom: 40px;
     display: inline-block;
     padding-right: 50px;
-    /* debug */
     border-top: 1px solid white;
-    color: white;
+    color: grey;
+}
+
+footer>section:last-child>div>div * {
+    vertical-align: middle;
 }
