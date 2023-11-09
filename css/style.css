@@ -287,6 +287,7 @@ main .container h2+.operations>* {
 main section:nth-of-type(4) .discover_more>h2 {
     font-size: 40px;
     margin-bottom: 70px;
+    margin-top: 150px;
 }
 
 main section:nth-of-type(4) .discover_more>a {
@@ -392,6 +393,30 @@ main section:nth-of-type(5)>.flex>h2+a {
 /* main sesta sezione */
 main section:nth-of-type(6)>h2 {
     font-size: 40px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+main section:nth-of-type(6)>.faq-box {
+    margin-bottom: 150px;
+}
+
+main section:nth-of-type(6)>.faq-box>div:first-child {
+    border-top: 1px solid black;
+}
+
+main section:nth-of-type(6)>.faq-box>* {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+main section:nth-of-type(6)>.faq-box>div>* {
+    padding: 50px 0;
+}
+
+main section:nth-of-type(6)>.faq-box i {
+    padding-right: 25px;
 }
 
 
