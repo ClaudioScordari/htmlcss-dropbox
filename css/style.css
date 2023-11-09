@@ -362,11 +362,25 @@ main .square .mini_square img {
     width: 25%;
 }
 
-/* main sesta sezione */
-main>section:nth-of-type(6)>h2~div {
-    /* debug */
-    height: 100px;
-    border: 2px solid orange;
+/* main quinta sezione */
+main section:nth-of-type(5) {
+    background-color: #B4D0E7;
+}
+
+main section:nth-of-type(5)>.flex {
+    justify-content: center;
+    padding: 150px 0;
+}
+
+main section:nth-of-type(5)>.flex>h2 {
+    color: #61082B;
+    font-size: 40px;
+    padding-right: 100px;
+}
+
+main section:nth-of-type(5)>.flex>h2+a {
+    background-color: white;
+    padding: 15px 40px;
 }
 
 /* FOOTER */
